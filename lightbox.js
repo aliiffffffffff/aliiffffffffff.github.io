@@ -20,7 +20,7 @@ function openLightbox(type, src) {
     iframeWrap.querySelector('iframe').src = src;
   }
 
-  if (type === 'instagram') {
+  if (type === 'instagram' || type === 'linkedin') {
     iframeWrap.style.display = 'none';
     igCard.style.display = 'flex';
     igBtn.href = src;
