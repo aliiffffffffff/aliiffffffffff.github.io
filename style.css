@@ -563,3 +563,24 @@ Tambahkan kode ini di paling bawah style.css kamu
   color: var(--gray-400);
   line-height: 1.65;
 }
+
+/* =====================
+   ORIENTATION BADGE
+   ===================== */
+.orientation-badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orientation-badge svg {
+  display: block;
+}
